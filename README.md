@@ -44,8 +44,6 @@ Open http://127.0.0.1:8000/docs to access interactive API documentation.
 Example input for /predict:
 
 json
-Copy
-Edit
 {
   "troškovi": [3420, 10, 15, 1539, 171],
   "vremenski_faktori": [200, 450, 100, 20, 50]
@@ -53,8 +51,7 @@ Edit
 👉 Header Required:
 
 makefile
-Copy
-Edit
+
 x-api-key: your_api_key_here
 2. HTML Form (Frontend)
 Access the root URL / to use the user-friendly web form.
